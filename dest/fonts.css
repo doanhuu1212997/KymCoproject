@@ -1,0 +1,77 @@
+/* FONT FACE - font-display: fallback; */
+
+@font-face {
+    font-family: titlemain;
+    src: url('../fonts/SFUDINEngAlt.woff2') format('woff2'), url('./fonts/SFUDINEngAlt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: fnMain;
+    src: url('../fonts/UTMAvo.woff2') format('woff2'), url('../fonts/UTMAvo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SFU DIN';
+    src: url('../fonts/SFUDINLight.woff2') format('woff2'), url('./fonts/SFUDINLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: UTM AvoB;
+    src: url('../fonts/UTMAvoBold.woff2') format('woff2'), url('./fonts/UTMAvoBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Font thêm */
+
+@font-face {
+    font-family: 'DIN';
+    src: url('../fonts/DIN-Light.woff2') format('woff2'), url('../fonts/DIN-Light.woff') format('woff'), url('../fonts/DIN-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: dinbold;
+    src: url('../fonts/DIN-Bold.woff2') format('woff2'), url('../fonts/DIN-Bold.woff') format('woff'), url('../fonts/DIN-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url('../fonts/DIN-BlackAlternate.woff2') format('woff2'), url('../fonts/DIN-BlackAlternate.woff') format('woff'), url('../fonts/DIN-BlackAlternate.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url('../fonts/DIN-Regular.woff2') format('woff2'), url('../fonts/DIN-Regular.woff') format('woff'), url('../fonts/-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url('../fonts/DIN-Medium.woff2') format('woff2'), url('../fonts/DIN-Medium.woff') format('woff'), url('../fonts/DIN-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
